@@ -15,6 +15,10 @@
     background-color: orange;
   }
 
+  #headerNavLinks ul li {
+    display: inline;
+  }
+
 }
 
 @media (min-width: 576px) {
@@ -25,6 +29,8 @@
 
   .container {
     background-color: green;
+    padding-top: 10%;
+
 
   }
   .container-fluid {
@@ -47,6 +53,12 @@
   #variableWidth {
   background-color: pink;
   }
+
+  ul li  {
+    text-decoration: none;
+    display: inline;
+  }
+
 
 }
 
